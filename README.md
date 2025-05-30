@@ -1,8 +1,9 @@
-**SanobotV0**
+SanobotV0
+-
 
 **App**: https://sanobotv0.streamlit.app/
 
-**Key Highlights**
+**Key Highlights:**
 
  -Frontend: Streamlit app for a clean, interactive chat interface
  
@@ -14,4 +15,8 @@
  
  -Chat Memory: Uses Streamlit session state to keep conversation context
 
-**Drawbacks** : Groq API Key has limited tokens
+**Drawbacks:** 
+  
+ -Grop API key has limited tokens
+ 
+ -When deployed in Streamlit, it displays GitHub icons in the top-right corner
