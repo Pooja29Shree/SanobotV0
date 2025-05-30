@@ -19,4 +19,4 @@ if user_input:
 # Display messages
 for msg in st.session_state.chat_history[1:]:  # Skip system message
     speaker = " Assistant" if msg["role"] == "assistant" else " You"
-    st.markdown(f"**{speaker}:** {msg['content']}")
+    st.markdown(f"{speaker}: {msg['content']}")
