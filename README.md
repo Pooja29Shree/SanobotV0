@@ -1,6 +1,8 @@
 SanobotV0
 -
 
+**Description**: Sanobot is a smart and reliable health assistant — combining the Latin word Sano meaning “to heal,” with Bot, a friendly AI helper. It’s designed to support and guide users on their journey to better health and wellness.
+
 **App**: https://sanobotv0.streamlit.app/
 
 **Key Highlights:**
