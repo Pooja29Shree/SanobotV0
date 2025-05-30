@@ -1,6 +1,10 @@
 & "C:\Users\pooja.shree\AppData\Roaming\Python\Python313\Scripts\streamlit.exe" run chatbot.py
+This worked in PC
 
-command to run manually
+streamlit run chatbot.py
+This worked in Laptop
+
+command to run locally
 
 How did I build this?
 
@@ -221,10 +225,11 @@ git push -u origin main
 
 
 Summary:
-
 *A simple, web-based chatbot where users can:
 *Ask general health-related questions
 *Get intelligent responses from the GROQ LLaMA-4 Scout 17B model
 *Interact via a clean UI built using Streamlit
 *Chat with context-aware history in a secure, privacy-conscious manner
 
+Drawbacks
+*Grop API key has limited tokens
