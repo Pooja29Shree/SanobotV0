@@ -2,7 +2,11 @@ import streamlit as st
 from groq_api import call_groq_chat, SYSTEM_PROMPT
 
 st.set_page_config(page_title=" Healthcare Chatbot", layout="wide")
-st.title("Sanobot - Your AI Powered Medical Assistant")
+st.markdown(
+    "<h1 style='display: inline; font-size: 3em;'>Sanobot</h1>"
+    "<span style='font-size: 1.5em; font-weight: normal;'>Your AI-powered medical assistant</span>",
+    unsafe_allow_html=True
+)
 
 # Initialize session state
 if "chat_history" not in st.session_state:
